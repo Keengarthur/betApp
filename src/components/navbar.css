@@ -1,0 +1,45 @@
+
+
+.navbarNav{
+    background: grey;
+    display:flex;
+    justify-content: space-between;
+    padding:0 2rem;
+    align-items: center;
+    width:100%;
+}
+
+.betStar{
+    display:flex;
+    align-items: center;
+}
+
+.sportsList{
+    margin-left: 1rem;
+}
+
+.sportsList span, .credentials span{
+    display:inline-block;
+    margin-right: 8px;
+    padding:3px;
+}
+
+.sportsList span:hover {
+    color:yellow;
+    cursor:pointer;
+    border-bottom: 1px solid orangered;
+
+}
+
+.sportsList span a:active{
+    color:orange;
+}
+
+.credentials{
+    font-size: 1.3rem;
+    cursor:pointer;
+}
+.credentials span:hover{
+    border-bottom: 1px solid orangered;
+
+}

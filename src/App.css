@@ -1,0 +1,19 @@
+
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background:rgba(28, 26, 26,0.9);
+    width:100vw;
+}
+
+a{
+    color:black;
+
+}

@@ -1,0 +1,113 @@
+
+
+.leftRightDiv{
+    /* background:lightgrey; */
+    flex:2;
+}
+
+.leftRight1{
+    height:40%;
+    background:lightgrey;
+}
+
+.leftRight2DivCont{
+    display:flex;
+}
+
+.leftRight2{
+    background:grey;
+    margin-top: 7px;
+    /* height:fit-content; */
+}
+
+.leftRight2H4{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background:lightgrey; */
+    padding:1rem 1rem;
+    border-bottom: 1px solid lightgrey;
+}
+.right2First{
+    background:rgba(239, 225, 225,0.4);
+}
+.leftRight2Div{
+    padding:1px 1rem;
+    width:6%;
+    margin-right: 5px;
+    position:relative;
+}
+.leftRight2Div img{
+    width: 38%;
+    position: absolute;
+    top: -8%;
+    left: 44%;
+  
+}
+.leftRight2Div h4{
+    margin-top: 2rem;
+    cursor:pointer;
+    display:flex;
+    justify-content: space-between;
+
+
+}
+
+.leftRight2Section{
+    height:fit-content;
+    margin-bottom: 2rem;
+
+}
+.leftRight2First{
+    display: flex;
+    padding:1px 1rem;
+    border-top: 1px solid grey;
+    background:rgba(239, 225, 225,0.4);
+    /* height:fit-content; */
+}
+.leftRight2First h4 span{
+    margin-right: 2rem;
+}
+.leftRight2Div h4:hover{
+    color:white;
+}
+
+
+.right2Second{
+    text-align: center;
+}
+.leftRight2First h3{
+    flex-basis:50%;
+}
+.leftRight2First h4{
+    flex-basis:25%;
+    text-align: center;
+    
+}
+
+.oddsDiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:0 1rem;
+}
+
+.time,.scoreline{
+    color:orange;
+}
+
+.teams span,.scoreline span{
+    display:block;
+    border-radius: 1.4rem;
+   
+}
+.homeOdd{
+    margin-left:6rem;
+}
+.homeOdd span, .doubleOdd span{
+    background:limegreen;
+    padding:5px 6px;
+    margin-left: 2px;
+    color:white;
+    cursor:pointer;
+}

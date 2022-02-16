@@ -1,0 +1,71 @@
+
+
+.rightRightDiv{
+    flex:1;
+    margin-left: 4px;
+}
+.rightDivFirst{
+    background:grey;
+
+    padding:1rem;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.rightDivFirst h3{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid limegreen; 
+
+}
+.rightDivFirst input{
+    border:none;
+    outline:none;
+    margin-bottom: 1rem;
+    padding:7px;
+
+}
+.rightDivFirst button{
+    font-size: 1rem;
+    padding:5px;
+}
+
+.rightDivSecond{
+    height: 3px;
+    background: lime;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.rightDivThird{
+    position:relative;
+    background:linear-gradient(105deg, rgba(196, 191, 191,0.4),transparent);
+    height:20%;
+
+}
+
+.rightDivThird img{
+    position:absolute;
+    width:50%;
+    top:0;    
+    right:0;
+    height:100%;
+    z-index: -2;
+    object-fit: cover;
+}
+
+.demoBonus{
+    color: white;
+    position: absolute;
+    width: 44%;
+    top: -3%;
+    right: 49%;
+    height:30%;
+    padding:1rem;
+}
+
+.demoBonus button{
+    font-size: 1rem;
+    background:olive;
+
+}
